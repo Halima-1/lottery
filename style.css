@@ -1,0 +1,125 @@
+form{
+    background-color: rgb(58, 45, 29);
+    width: 350px;
+    margin: auto;
+    padding:20px 10px ;
+    padding-top: 10px;
+    border-radius:20px 10px;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+input{
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: auto;
+    border: none;
+    margin-bottom: 10px;
+}
+#playy{
+    width: 100px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: rgb(247, 0, 255);
+}
+#playy:hover{
+background-color: blue;
+color: aliceblue;
+width: 70px;
+}
+ #lotto{
+    margin-left: 0;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+    width: 130px;
+    background-color: rgba(22, 6, 2, 0.5);
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 120%;
+    
+}
+#input{
+    width: 50%;
+}
+#input:hover{
+    width: 70%;
+    text-align: center;
+    border-color: rgb(43, 21, 43);
+}
+.labell{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+label{
+    width: 40%;
+}
+#process{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+code{
+    margin-bottom: 20px;
+}
+#lot{
+    color: red;
+}
+#lotto h3{
+    margin: 0;
+}
+#lotto p{
+    margin: 0;
+    font-size: 14px;
+    color: palevioletred;
+
+}
+.line{
+    color: aliceblue;
+    margin-left: 65%;
+    margin-top: 10px ;
+    margin-bottom: 0;
+}
+.info{
+    margin: auto;
+    width: 80%;
+    margin-left:10%;
+    border-radius: 20px 50px;
+    border:none;
+    background-color: rgb(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px ;
+    box-shadow:  20px 15px 50px gray;
+    border-style: 1,5,3 groove;
+
+}
+@media (max-width:500px){
+ form{
+    width: 90%;
+    padding-bottom: 5px;
+ }  
+ .info{
+    width: 93%;
+    margin-left:0;
+
+ } 
+ #lotto h3{
+    font-size: 16px;
+    margin-left: 6px;
+ }
+ .labell{
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+}
+label{
+    width: 80%;
+}
+.line{
+    color: aliceblue;
+    margin-left:60%;
+}
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div id="lotto">
+            <h3><span id="lot">Lottery </span>Game</h3>
+            <p><i>...happy playing</i></p>
+        </div>
+        <p id="process">Note: <i>If two of your predicted numbers appear in the random numbers, you win. Else, O lule.</i> </p>
+        <div class="info">
+
+            <code>input your numbers in this format; 34,35,34</code> <br> <br>
+        <input type="text" name="input" id="input" placeholder="Enter your numbers here" value="">
+        <div class="label">
+            <label for="random">Random numbers:</label>
+            <input type="text" id="random" name="random" max="0">            
+        </div>
+        <div class="label">
+            <label for="correct">Correct prediction:</label>
+            <input type="text" id="correct" name="correct" max="1">
+        </div>
+        <p><strong>Result: </strong><span id="reply"></span></p>
+        <input type="button" value="PLAY" onclick="play()" id="playy">
+
+        </div>
+        <p><i class="line">happy winning...</i></p>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
