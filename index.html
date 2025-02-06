@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div id="lotto">
+        <h3><span id="lot">Lottery </span>Game</h3>
+        <p><i>...happy playing</i></p>
+      </div>
+      <div id="options">
+        <p>Hello, will you like to play 2 sure or 3-direct?</p>
+        <div id="select">
+          <input
+            type="button"
+            value="2-Sure"
+            onclick="displaysure()"
+            class="playy"
+          />
+          <input
+            type="button"
+            value="3-Direct"
+            onclick="displaydirect()"
+            class="playy"
+          />
+        </div>
+      </div>
+      <div id="game"></div>
+      <p><i class="line">happy winning...</i></p>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
