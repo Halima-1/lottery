@@ -201,7 +201,7 @@ function direct() {
   
   option.style.display ="none"
      displayGame.innerHTML += `
-     <span onclick="closeGame()">X</span>
+        <p id="close" onclick="closeGame()">X</p>
       <p id="process">
             Note:
             <i>
@@ -233,7 +233,7 @@ function direct() {
     option.style.display ="none"
   
      displayGame.innerHTML += `
-        <span onclick="closeGame()">X</span>
+        <p id="close" onclick="closeGame()">X</p>
   
       <p id="process">
             Note:
